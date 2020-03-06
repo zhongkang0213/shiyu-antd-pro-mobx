@@ -1,0 +1,29 @@
+.weekly-recipe-edit-wrapper .ant-tabs-nav-wrap {
+    background: #fafafa!important;
+    margin-bottom: 10px!important;
+  }
+  .weekly-recipe-edit-wrapper .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff!important;
+  }
+  
+  .weekly-recipe-edit-wrapper .card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff!important;
+  }
+  
+  .weekly-recipe-edit-wrapper .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent!important;
+    background: transparent!important;
+  }
+  
+  .weekly-recipe-edit-wrapper .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    background: #fff!important;
+    width: 20%!important;
+    border-bottom: 3px solid #1890ff!important;
+  }
+  .weekly-recipe-edit-wrapper  .ant-tabs-bar {
+    margin: 0!important;
+}
+.weekly-recipe-edit-wrapper .ant-tabs-tab-active {
+    color: rgba(0, 0, 0, 0.65)!important;
+    font-weight: 500;
+}

@@ -1,0 +1,18 @@
+.weekly-recipe-edit-wrapper .dropview-wrapper {
+    width: 360px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    overflow: scroll;
+    border-radius: 4px;
+}
+.weekly-recipe-edit-wrapper .ant-table-thead th {
+    text-align: center!important;
+}
+.weekly-recipe-edit-wrapper .ant-table-header-column {
+    /* width: 100px!important; */
+    text-align: center!important;
+}
+.weekly-recipe-edit-wrapper td {
+    text-align: center!important; 
+}

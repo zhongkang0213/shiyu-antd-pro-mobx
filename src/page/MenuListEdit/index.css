@@ -1,0 +1,29 @@
+.menu-list-edit-wrapper {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    height: 100%;
+}
+.menu-list-edit-wrapper .main-content {
+    width: 520px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    overflow: scroll;
+    border-radius: 4px;
+}
+.menu-list-edit-wrapper .ant-menu-item-selected {
+    color: rgba(0, 0, 0, 0.65)!important;
+}
+.menu-list-edit-wrapper .ant-menu-submenu-selected {
+    color: rgba(0, 0, 0, 0.65)!important;
+}
+.menu-list-edit-wrapper .ant-menu-submenu .ant-menu-submenu-inline .ant-menu-submenu-open {
+    color: rgba(0, 0, 0, 0.65)!important;
+    background: none!important;
+    background-color: none!important;
+}
+.menu-list-edit-wrapper .ant-menu-submenu:hover {
+    color: rgba(0, 0, 0, 0.65)!important;
+    background: none!important;
+}

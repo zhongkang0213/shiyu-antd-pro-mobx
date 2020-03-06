@@ -1,0 +1,51 @@
+.weekly-recipe-edit-wrapper .droparea-wrapper {
+    width: 520px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    overflow: scroll;
+    margin: 0 20px;
+    border-radius: 4px;
+}
+.weekly-recipe-edit-wrapper .table-wrapper {
+    width: 100%;
+    border: none!important;
+}
+.weekly-recipe-edit-wrapper .drop-table-th {
+    text-align: center!important;
+    min-width: 50px;
+    vertical-align: middle;
+    padding: 15px 0;
+}
+.weekly-recipe-edit-wrapper .drop-table-th-80 {
+    width: 80px;
+}
+.weekly-recipe-edit-wrapper .drop-table-td {
+    text-align: center!important;
+    min-width: 50px;
+    vertical-align: middle;
+    padding: 15px 0;
+}
+.weekly-recipe-edit-wrapper .drop-table-tr {
+    height: 50px;
+}
+.weekly-recipe-edit-wrapper .table-wrapper {
+    border: none;
+}
+.weekly-recipe-edit-wrapper .table-wrapper{ 
+    border-collapse: collapse; 
+} 
+.weekly-recipe-edit-wrapper .table-wrapper td, .table-wrapper th { 
+    border-top: 0; 
+    border-right: 1px solid #e8e8e8; 
+    border-bottom: 1px solid #e8e8e8; 
+    border-left: 0; 
+}  
+/* css3样式，获取表格的最后一行 */
+/* .table-wrapper tr:last-child td, .table-wrapper tr:last-child th{
+    border-bottom: 0; 
+} */
+/* css3样式，获取表格的最后一列 */
+.weekly-recipe-edit-wrapper .table-wrapper tr td:last-child, .table-wrapper tr th:last-child{
+    border-right: 0; 
+}
